@@ -1,0 +1,93 @@
+div#content div{
+    display: inline-block;
+    height: auto;
+}
+div#content div.navdiv{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+div#content div.autherdiv{
+    display: inline-block;
+    width: 89.7%;
+    vertical-align: top;
+}
+div#content div.navbox{
+    background-color: gray;
+    vertical-align: 50%;
+    width: 100%;
+}
+div#content div.leftbox{
+    vertical-align: top;
+    width: 49.8%;
+}
+div#content div.leftbox h1{
+    text-align: center;
+}
+div#content div.leftbox p.indexp{
+    font-family: "Comic Sans MS";
+    padding-left: 20px;
+}
+div#content div.leftbox p.supportp{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+div#content div.rightbox h1{
+    text-align: center;
+}
+div#content div.rightbox iframe{
+    margin-left: 16%;
+    margin-right: 14%;
+}
+div#content div.rightbox img{
+    margin-left: 32%;
+}
+div#content div.leftbox img.inviteimg{
+    margin-left: 26%;
+}
+div#content div.rightbox{
+    width: 49.8%;
+}
+nav.menu ul li.btn{
+    list-style-type: none;
+    align-self: center;
+}
+nav.menu ul li.btn a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+    padding: 5px;
+    font-size: 25px;
+    width: 100px;
+    align-items: center;
+}
+nav.menu ul li.btn:hover a{
+    color: orange;
+    transition: 0.7s all;
+}
+nav.menu{
+    background-color: gray;
+    height: 500px;
+}
+header{
+    background-color: rgb(66, 66, 66);
+}
+header div{
+    display: inline-block;
+}
+header div.headerdiv{
+    vertical-align: top;
+}
+header img.logo{
+    padding: 10px;
+    width: 50px;
+}
+footer{
+    background-color: rgb(66, 66, 66);
+    height: 50px;
+    text-align: center;
+}
+body{
+    background-color: gray;
+    align-items: center;
+}
